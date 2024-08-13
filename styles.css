@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.section-one, .section-two, .section-three {
+    padding: 50px;
+    text-align: center;
+}
+
+.section-one {
+    background-color: #FFD564;
+}
+
+.section-one .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section-one h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.section-one .brand {
+    color: #FFF;
+}
+
+.section-one p {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.section-one button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #333;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.section-two {
+    background-color: #FFF;
+}
+
+.section-two .testimonial {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.section-two p {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.section-two .author {
+    display: flex;
+    align-items: center;
+}
+
+.section-two .author img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.section-two .author p {
+    font-size: 18px;
+    color: #333;
+}
+
+.section-two .products {
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+}
+
+.section-three {
+    background-color: #E8E8E8;
+}
+
+.section-three .assets {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.section-three .assets img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.section-three .details {
+    max-width: 600px;
+}
+
+.section-three h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.section-three p {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.section-three ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.section-three ul li {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.section-three button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #333;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
